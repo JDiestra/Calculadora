@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+html {
+    font-family: "Roboto";
+    font-weight: 100;
+}
+.calculadora {
+    display: block;
+    margin: 0 auto;
+    padding: 13px;
+    background-color: #000;
+    width: 18%;
+    height: 480px;
+    border-radius: 25px;
+}
+.calculadora td button {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #313131;
+    border: #313131;
+    color: #ffffff;
+}
+
+#igual,
+#suma,
+#resta,
+#multiplicacion,
+#division {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #f69a06;
+    border: #f69a06;
+    color: #ffffff;
+}
+
+#creditos {
+    display: block;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+}
+#resultado {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    /* overflow-y: scroll; */
+}
